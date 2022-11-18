@@ -1,0 +1,52 @@
+.what-do-we-do {
+    padding-bottom: 94px;
+}
+
+.title-what-do-we-do {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 50px;
+}
+
+.list-what-do-we-do {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-left: 0%;
+    position: relative;
+}
+
+.image-what-do-we-do {
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.image-what-do-we-do::before {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.description-what-do-we-do {
+    position: absolute;
+    bottom: 27px;
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}

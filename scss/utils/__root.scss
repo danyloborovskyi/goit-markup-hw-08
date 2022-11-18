@@ -1,0 +1,48 @@
+:root {
+    --link-color-hover: #2196F3;
+    --button-color: white;
+    --button-background: #2196F3;
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --function: cubic-bezier(0.4, 0, 0.2, 1);
+    --duration-animation: 250ms;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
