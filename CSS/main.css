@@ -407,11 +407,16 @@ nav {
 
 .advantages__descripton {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.715;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-  margin-top: 0%;
-  margin-bottom: 0%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 480px) {
+  .advantages__descripton {
+    width: 450px;
+  }
 }
 
 .advantages__item {
