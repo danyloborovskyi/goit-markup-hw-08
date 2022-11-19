@@ -293,6 +293,12 @@ nav {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+@media screen and (max-width: 480px) {
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+}
 
 .hero__title {
   position: relative;
@@ -330,6 +336,11 @@ nav {
   transition-property: background-color;
   -webkit-transition-duration: var(--duration-animation);
           transition-duration: var(--duration-animation);
+}
+@media screen and (max-width: 480px) {
+  .hero__button {
+    max-width: 480px;
+  }
 }
 
 .hero__button:hover,

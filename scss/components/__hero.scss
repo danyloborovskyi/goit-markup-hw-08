@@ -15,6 +15,11 @@
     background-position: center;
     padding-top: 200px;
     padding-bottom: 200px;
+
+    @media screen and (max-width: 480px) {
+        padding-top: 118px;
+        padding-bottom: 118px;
+        }
 }
 
 .hero__title {
@@ -51,6 +56,10 @@
 
     transition-property: background-color;
     transition-duration: var(--duration-animation);
+    
+    @media screen and (max-width: 480px) {
+        max-width: 480px;
+    }
 }
 
 .hero__button:hover,
