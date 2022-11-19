@@ -305,6 +305,13 @@ nav {
   margin-bottom: 30px;
   width: 696px;
 }
+@media screen and (max-width: 480px) {
+  .hero__title {
+    max-width: 480px;
+    font-size: 26px;
+    line-height: 1.615;
+  }
+}
 
 .hero__button {
   display: block;
