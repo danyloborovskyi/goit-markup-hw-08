@@ -27,12 +27,21 @@
     letter-spacing: 0.03em;
     color: black;
     margin-right: 93px;
+
+    @media (max-width:480px) {
+        font-size: 24px;
+        line-height: 1.1667;
+        }
 }
 &__item {
     margin-right: 50px;
     position: relative;
     padding-top: 32px;
     padding-bottom: 32px;
+    
+    @media (max-width:480px) {
+        display: none;
+    }
 }
 &__link {
     color: var(--primary-color);
@@ -73,6 +82,13 @@ nav {
     display: block;
     padding-top: 24px;
     padding-bottom: 25px;
+
+    @media (max-width:480px) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        }
+
+
 }
 
 .logo-link {
@@ -139,6 +155,11 @@ nav {
 
 &__item {
     margin-right: 50px;
+
+    @media (max-width:480px) {
+        display: none;
+    }
+
 }
 
 &__item:nth-child(2) {
@@ -150,5 +171,21 @@ nav {
     color: var(--link-color-hover);
     transition-duration: var(--duration-animation);
     transition-timing-function: var(--function);
+}
+}
+.burger-menu {
+    display: none;
+
+    @media (max-width:480px) {
+            display: flex;
+            background-color: transparent;
+            border-color: transparent;
+            cursor: pointer;
+        }
+    
+&__icon {
+    width: 40px;
+    height: 40px;
+    
 }
 }
