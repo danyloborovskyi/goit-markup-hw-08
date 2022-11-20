@@ -1,5 +1,9 @@
 .what-do-we-do {
     padding-bottom: 94px;
+
+    @media (max-width: 480px) {
+        display: none;
+    }
 }
 
 .title-what-do-we-do {

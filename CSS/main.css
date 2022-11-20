@@ -299,6 +299,8 @@ nav {
     padding-top: 118px;
     padding-bottom: 118px;
     width: 480px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-mobile.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-mobile.jpg);
   }
 }
 
@@ -450,6 +452,11 @@ nav {
 .what-do-we-do {
   padding-bottom: 94px;
 }
+@media (max-width: 480px) {
+  .what-do-we-do {
+    display: none;
+  }
+}
 
 .title-what-do-we-do {
   font-weight: 700;
@@ -512,6 +519,12 @@ nav {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media (max-width: 480px) {
+  .team-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .list-team {
   display: -webkit-box;
@@ -522,6 +535,21 @@ nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-left: 0%;
+}
+@media (max-width: 480px) {
+  .list-team {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .employee-image {
+    width: 450px;
+    height: auto;
+  }
 }
 
 .card-employee {
