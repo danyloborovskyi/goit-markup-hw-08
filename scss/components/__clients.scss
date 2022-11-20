@@ -1,6 +1,11 @@
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
+
+    @media (max-width: 480px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
 }
 
 .regular-clients {
@@ -17,6 +22,19 @@
     display: flex;
     gap: 30px;
     justify-content: center;
+
+    @media (max-width: 480px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.our-clients {
+    @media (max-width: 480px) {
+        display: inline-block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+    }
 }
 
 .link-clients {
@@ -30,6 +48,11 @@
 
     transition-property: border;
     transition-duration: var(--duration-animation);
+
+    @media (max-width: 480px) {
+        gap: 30px;
+        width: 210px;
+    }
 }
 
 .icon-clients {
