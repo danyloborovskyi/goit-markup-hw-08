@@ -35,7 +35,7 @@
     }
 }
 .block-address {
-    display: flex;
+    display: block;
 
     @media (max-width: 480px) {
     display: flex;
@@ -63,6 +63,7 @@
     }
 }
 .contact-item {
+    display: block;
     @media (max-width: 480px) {
         display: flex;
         justify-content: center;

@@ -1011,9 +1011,7 @@ nav {
 }
 
 .block-address {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 @media (max-width: 480px) {
   .block-address {
@@ -1052,6 +1050,9 @@ nav {
   }
 }
 
+.contact-item {
+  display: block;
+}
 @media (max-width: 480px) {
   .contact-item {
     display: -webkit-box;
