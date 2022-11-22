@@ -263,6 +263,26 @@ nav {
   width: 40px;
   height: 40px;
 }
+.burger-menu.js-open-menu {
+  overflow: hidden;
+  opacity: 1;
+}
+
+.mobile-menu {
+  position: fixed;
+  width: 480px;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+
+.icon-close-mobile {
+  position: absolute;
+  right: 0;
+  background-color: transparent;
+  border-color: transparent;
+}
 
 .hero__container {
   display: -webkit-box;
@@ -963,6 +983,11 @@ nav {
   background: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+@media (max-width: 480px) {
+  .footer {
+    width: 480px;
+  }
 }
 
 .footer__container {
